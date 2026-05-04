@@ -3,10 +3,10 @@
   "description": "Complete Quarkus 3.x development template with agents, skills, and best practices for enterprise Java applications. Includes Panache patterns, MicroProfile, SmallRye, CDI, and native compilation support.",
   "version": "1.0.0",
   "author": {
-    "name": "Piotr Mińkowski"
+    "name": "Xavier Moghrabi"
   },
-  "repository": "https://github.com/piomin/claude-ai-quarkus",
-  "homepage": "https://piotrminkowski.com/",
+  "repository": "https://github.com/mexavier/claude-ai-quarkus",
+  "homepage": "https://github.com/mexavier/",
   "keywords": ["quarkus", "java", "maven", "enterprise", "panache", "microprofile", "cdi", "smallrye", "jakarta-ee"],
   "license": "Apache-2.0"
 }

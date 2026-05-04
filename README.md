@@ -104,8 +104,8 @@ It provides live access to configuration, health, metrics, and all registered ex
 
 ## Technology Stack
 
-- **Runtime**: Quarkus 3.35.2
-- **Java**: 21
+- **Runtime**: Quarkus 3.33.1 (LTS)
+- **Java**: 25 (LTS)
 - **Jakarta EE**: 10
 - **MicroProfile**: 6
 - **Build**: Maven 3.9+

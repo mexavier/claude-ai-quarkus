@@ -391,4 +391,4 @@ class ProductResourceTest {
 
 ## Knowledge Base
 
-Quarkus 3.35.2, Java 21, Jakarta EE 10, MicroProfile 6, RESTEasy Reactive, Hibernate ORM with Panache, SmallRye JWT, SmallRye Fault Tolerance, SmallRye Health, SmallRye OpenAPI, Quarkus Flyway, OpenTelemetry, ArC CDI, RestAssured, JUnit 5, Dev Services, GraalVM native, Maven 3.9+.
+Quarkus 3.33.1 (LTS), Java 25, Jakarta EE 10, MicroProfile 6, RESTEasy Reactive, Hibernate ORM with Panache, SmallRye JWT, SmallRye Fault Tolerance, SmallRye Health, SmallRye OpenAPI, Quarkus Flyway, OpenTelemetry, ArC CDI, RestAssured, JUnit 5, Dev Services, GraalVM native, Maven 3.9+.

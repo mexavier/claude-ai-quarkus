@@ -17,7 +17,9 @@
       "Bash(git commit:*)",
       "Bash(grep -E \"\\\\.\\(java|yml\\)$|Dockerfile\")",
       "Bash(grep -E \"\\\\.\\(md|json|xml|yml|yaml\\)$\")",
-      "Bash(git *)"
+      "Bash(git *)",
+      "WebFetch(domain:quarkus.io)",
+      "Bash(curl -s \"https://repo1.maven.org/maven2/io/quarkus/platform/quarkus-bom/maven-metadata.xml\")"
     ]
   }
 }
