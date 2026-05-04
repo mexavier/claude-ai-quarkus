@@ -28,8 +28,10 @@
 ## Project General Instructions
 
 - Always use the latest versions of dependencies.
-- Always write Java code as the Spring Boot application.
+- Always write Java code as the Quarkus application using Quarkus 3.x.
 - Always use Maven for dependency management.
+- Always use quarkus-bom for dependency management, not spring-boot-starter-parent.
+- Use application.properties (not YAML) for Quarkus configuration.
 - Always create test cases for the generated code both positive and negative.
 - Always generate the CircleCI pipeline in the .circleci directory to verify the code.
 - Minimize the amount of code generated.

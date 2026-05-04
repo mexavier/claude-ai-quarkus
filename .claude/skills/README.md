@@ -41,9 +41,9 @@ Each skill folder contains:
 ### Framework & Data
 | Skill | Description |
 |-------|-------------|
-| [spring-boot-patterns](spring-boot-patterns/) | Spring Boot best practices |
+| [quarkus](quarkus/) | Quarkus 3.x patterns — RESTEasy Reactive, Panache, SmallRye, CDI |
 | [java-migration](java-migration/) | Java version upgrade guide (8→11→17→21) |
-| [jpa-patterns](jpa-patterns/) | JPA/Hibernate patterns (N+1, lazy loading, transactions) |
+| [jpa-patterns](jpa-patterns/) | JPA/Hibernate patterns (N+1, lazy loading, transactions, Panache) |
 | [logging-patterns](logging-patterns/) | Structured logging (JSON), SLF4J, MDC, AI-friendly formats |
 
 ## Adding a New Skill

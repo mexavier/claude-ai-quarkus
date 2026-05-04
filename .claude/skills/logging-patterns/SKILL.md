@@ -100,11 +100,31 @@ AI can then:
 
 ---
 
-## Quick Setup (Spring Boot 3.4+)
+## Quick Setup
 
-### Native Structured Logging
+### Quarkus
 
-Spring Boot 3.4+ has built-in support - no extra dependencies!
+```properties
+# application.properties — JSON for production and AI analysis
+quarkus.log.console.json=true
+quarkus.log.console.json.pretty-print=false
+
+# Human-readable in dev mode automatically (% prefix = profile override)
+%dev.quarkus.log.console.json=false
+```
+
+**Usage:**
+```bash
+# Dev mode: human-readable logs automatically
+./mvnw quarkus:dev
+
+# Production / CI: JSON logs
+./mvnw package && java -jar target/quarkus-app/quarkus-run.jar
+```
+
+### Spring Boot 3.4+
+
+Spring Boot 3.4+ has built-in support — no extra dependencies.
 
 ```yaml
 # application.yml
@@ -116,7 +136,7 @@ logging:
 # Supported formats: logstash, ecs, gelf
 ```
 
-### Profile-Based Switching
+### Spring Boot — Profile-Based Switching
 
 ```yaml
 # application.yml (default - JSON for AI/prod)

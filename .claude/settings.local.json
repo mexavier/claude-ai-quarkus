@@ -2,10 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(mvn:*)",
+      "Bash(./mvnw:*)",
       "Bash(ls:*)",
       "Bash(jar tf:*)",
       "Bash(java:*)",
-      "Bash(curl -s https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-parent/maven-metadata.xml)",
+      "Bash(curl -s https://repo1.maven.org/maven2/io/quarkus/platform/quarkus-bom/maven-metadata.xml)",
       "Bash(grep -E \"\\\\.java$|\\\\.yml$|\\\\.properties$|src/\")",
       "Bash(git ls-tree:*)",
       "Bash(grep -E \"\\\\.\\(java|yml|properties|xml\\)$\")",
@@ -13,7 +14,10 @@
       "Bash(docker ps:*)",
       "Bash(docker exec:*)",
       "Bash(docker-compose down:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(grep -E \"\\\\.\\(java|yml\\)$|Dockerfile\")",
+      "Bash(grep -E \"\\\\.\\(md|json|xml|yml|yaml\\)$\")",
+      "Bash(git *)"
     ]
   }
 }
